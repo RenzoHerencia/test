@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Motoautos</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/f5ce782ee9.js"></script>
+   
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="col66">
+                <h1>
+                <a href="https://motoautos.com" target="_blank">Motoautos</a>
+                </h1>
+            </div>
+
+            <div class="col33">
+                <a href="https://www.facebook.com/motoautosok/" target="_blank">
+                    <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/moto.autos/" target="_blank">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="slider">
+        <div class="wrapper">
+
+            <!-- slider servicios -->
+            <div class="col66">
+                <article>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <img src="img/slide1.png" alt="Megáfono">
+                                <h2>Generación de Leads</h2>
+                                <ul>
+                                    <li>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                        Segmentación por marca y zona geográfica.
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                        Chat en línea los 365 días del año en landings y facebook.
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="img/slide2.png" alt="Megáfono">
+                                <h2>Soluciones en publicaciones</h2>
+                                <ul>
+                                    <li>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                        Paquete de publicaciones con máxima visibilidad.
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                        Posicionamiento SEO.
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                        Publicidad en diferentes plataformas publicitarias (Adwords, Facebook, Instagram, Twitter, etc).
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="img/slide3.png" alt="Megáfono">
+                                <h2>Administración de prospectos</h2>
+                                <ul>
+                                    <li>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                        Podemos entregarles la cantidad de prospectos diarios que desean recibir.
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                        Integración en Tiempo real (Exportación a Excel y/o CRM).
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                        Integración con otros CRM del mercado. Si no tienen CRM le prestamos uno.
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- formulario -->
+            <div class="col33">
+                <aside>
+                    <h2>Consultá ya sin compromiso!</h2>
+                    <form>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="name" id="name">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email">
+                        <label for="telefono">Teléfono</label>
+                        <input type="text" name="phone" id="phone">
+                        <label for="comentarios">Mensaje</label>
+                        <textarea name="message" id="message"></textarea>
+                        <button type="submit" form="form1" value="Submit">Enviar</button>
+                    </form>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <section class="nosotros">
+        <div class="wrapper">
+            <div class="col25">
+                <a href="https://motoautos.com" target="_blank"><img src="img/motoautos_logo_negativo.png" alt="Logo de Motoautos"></a>
+            </div>
+            <div class="col75">
+                <article>
+                    <h3>Nosotros</h3>
+                    <p>Somos una empresa que contribuye a explotar al máximo tus ventas. Te ofrecemos un paquete de acciones y soluciones digitales. Nos especializamos en publicaciones de autos (nuevo y usados) y la generación de leads aplicando últimas tecnologías en ventas para el rubro automotor.</p><br></p>
+                    <h3>¿Cómo lo hacemos?</h3>
+                    <p>Todos nuestros sitios se encuentran posicionados y cuentan con un tráfico suficiente para que puedas generar nuevos clientes de acuerdo a tus necesidades.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrapper">
+            <p>Copyright © 2018 <span>MotoAutos</span></p>
+        </div>
+    </footer>
+
+    <script src="js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            },
+            navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+</body>
+</html>
